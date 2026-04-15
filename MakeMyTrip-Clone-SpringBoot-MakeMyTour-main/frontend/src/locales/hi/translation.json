@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "होम",
+    "flights": "उड़ानें",
+    "hotels": "होटल",
+    "myBookings": "मेरी बुकिंग",
+    "stories": "यात्रा कहानियाँ",
+    "routePlanner": "रूट प्लानर",
+    "login": "लॉगिन",
+    "register": "पंजीकरण",
+    "logout": "लॉगआउट"
+  },
+  "dashboard": {
+    "title": "आपकी यात्रा यहाँ से शुरू होती है",
+    "subtitle": "उड़ानें, होटल बुक करें और अपनी परफेक्ट ट्रिप प्लान करें",
+    "searchFlights": "उड़ानें खोजें",
+    "searchHotels": "होटल खोजें",
+    "featuredFlights": "फीचर्ड उड़ानें",
+    "featuredHotels": "फीचर्ड होटल",
+    "recommendations": "AI सिफारिशें"
+  },
+  "booking": {
+    "book": "अभी बुक करें",
+    "cancel": "बुकिंग रद्द करें",
+    "confirmCancel": "रद्दीकरण की पुष्टि करें",
+    "myBookings": "मेरी बुकिंग",
+    "totalPrice": "कुल मूल्य",
+    "travelDate": "यात्रा तिथि",
+    "status": "स्थिति"
+  },
+  "review": {
+    "title": "अपना अनुभव रेट करें",
+    "punctuality": "समयबद्धता",
+    "cleanliness": "स्वच्छता",
+    "amenities": "सुविधाएं",
+    "comment": "टिप्पणी",
+    "submit": "समीक्षा सबमिट करें",
+    "score": "भारित स्कोर"
+  },
+  "stories": {
+    "title": "यात्रा कहानियाँ",
+    "share": "अपनी कहानी साझा करें",
+    "storyTitle": "कहानी शीर्षक",
+    "content": "आपकी कहानी",
+    "destination": "गंतव्य",
+    "coverImage": "कवर इमेज URL",
+    "submit": "कहानी सबमिट करें",
+    "pending": "अनुमोदन लंबित",
+    "approved": "स्वीकृत",
+    "rejected": "अस्वीकृत"
+  },
+  "route": {
+    "title": "अपना रूट प्लान करें",
+    "addWaypoint": "वेपॉइंट जोड़ें",
+    "waypointName": "स्थान का नाम",
+    "latitude": "अक्षांश",
+    "longitude": "देशांतर",
+    "calculate": "रूट कैलकुलेट करें",
+    "distance": "दूरी",
+    "eta": "अनुमानित समय",
+    "km": "किमी",
+    "minutes": "मिनट"
+  },
+  "theme": {
+    "dark": "डार्क मोड",
+    "light": "लाइट मोड"
+  },
+  "language": {
+    "select": "भाषा",
+    "en": "English",
+    "hi": "हिंदी",
+    "fr": "Français"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "कुछ गलत हो गया",
+    "save": "सेव करें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "back": "वापस"
+  }
+}

@@ -1,0 +1,36 @@
+# ============================================================
+# Render Blueprint — MakeMyTour Backend
+# ============================================================
+# This file lets you deploy the Spring Boot backend to Render
+# with a single click (or via the Render CLI / GitHub integration).
+#
+# Docs: https://render.com/docs/blueprint-spec
+# ============================================================
+
+services:
+  - type: web
+    name: makemytour-backend
+    # Docker runtime — Render builds and runs the backend/Dockerfile.
+    env: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    # Render's free tier spins down after inactivity; use "standard" for always-on.
+    plan: free
+    # Use the lightweight /api/health endpoint — it does not query the database
+    # and responds immediately even during a cold start, so Render can detect
+    # when the service is ready faster than querying /api/flights.
+    healthCheckPath: /api/health
+    envVars:
+      # ── Required in production ──────────────────────────────────
+      # Render can auto-generate a secure random value for JWT_SECRET.
+      - key: JWT_SECRET
+        generateValue: true
+
+      # ⚠️  Set CORS_ALLOWED_ORIGINS to YOUR Netlify site URL before deploying.
+      # If you have multiple origins (e.g., custom domain + localhost), use a
+      # comma-separated list: https://yoursite.netlify.app,http://localhost:5173
+      # Example: https://make-my-trip-clone-makemytour.netlify.app
+      - key: CORS_ALLOWED_ORIGINS
+        value: https://make-my-trip-clone-makemytour.netlify.app
+
+      # PORT is injected automatically by Render — do NOT set it manually.

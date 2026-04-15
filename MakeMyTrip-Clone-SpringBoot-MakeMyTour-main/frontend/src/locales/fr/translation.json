@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "flights": "Vols",
+    "hotels": "Hôtels",
+    "myBookings": "Mes Réservations",
+    "stories": "Récits de voyage",
+    "routePlanner": "Planificateur d'itinéraire",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "logout": "Déconnexion"
+  },
+  "dashboard": {
+    "title": "Votre voyage commence ici",
+    "subtitle": "Réservez des vols, des hôtels et planifiez votre voyage idéal",
+    "searchFlights": "Rechercher des vols",
+    "searchHotels": "Rechercher des hôtels",
+    "featuredFlights": "Vols en vedette",
+    "featuredHotels": "Hôtels en vedette",
+    "recommendations": "Recommandations IA"
+  },
+  "booking": {
+    "book": "Réserver maintenant",
+    "cancel": "Annuler la réservation",
+    "confirmCancel": "Confirmer l'annulation",
+    "myBookings": "Mes réservations",
+    "totalPrice": "Prix total",
+    "travelDate": "Date de voyage",
+    "status": "Statut"
+  },
+  "review": {
+    "title": "Notez votre expérience",
+    "punctuality": "Ponctualité",
+    "cleanliness": "Propreté",
+    "amenities": "Commodités",
+    "comment": "Commentaire",
+    "submit": "Soumettre l'avis",
+    "score": "Score pondéré"
+  },
+  "stories": {
+    "title": "Récits de voyage",
+    "share": "Partagez votre récit",
+    "storyTitle": "Titre du récit",
+    "content": "Votre récit",
+    "destination": "Destination",
+    "coverImage": "URL de l'image de couverture",
+    "submit": "Soumettre le récit",
+    "pending": "En attente d'approbation",
+    "approved": "Approuvé",
+    "rejected": "Rejeté"
+  },
+  "route": {
+    "title": "Planifiez votre itinéraire",
+    "addWaypoint": "Ajouter une étape",
+    "waypointName": "Nom du lieu",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "calculate": "Calculer l'itinéraire",
+    "distance": "Distance",
+    "eta": "Temps estimé",
+    "km": "km",
+    "minutes": "min"
+  },
+  "theme": {
+    "dark": "Mode sombre",
+    "light": "Mode clair"
+  },
+  "language": {
+    "select": "Langue",
+    "en": "English",
+    "hi": "हिंदी",
+    "fr": "Français"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour"
+  }
+}

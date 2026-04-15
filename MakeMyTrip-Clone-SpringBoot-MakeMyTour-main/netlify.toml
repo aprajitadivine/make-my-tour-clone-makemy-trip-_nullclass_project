@@ -1,0 +1,18 @@
+[build]
+  base    = "frontend"
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+  # ⚠️  Do NOT hardcode VITE_API_BASE_URL here.
+  # Set it as a Netlify environment variable in your site dashboard:
+  #   Site configuration → Environment variables → Add variable
+  #   Key:   VITE_API_BASE_URL
+  #   Value: https://<your-render-service>.onrender.com/api
+  #
+  # This keeps the backend URL out of source control and lets you update it
+  # without a code change.  See README.md → Production Deployment for details.
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

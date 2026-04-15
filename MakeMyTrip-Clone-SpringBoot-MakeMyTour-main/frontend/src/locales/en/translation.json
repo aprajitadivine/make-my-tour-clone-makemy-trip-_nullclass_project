@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Home",
+    "flights": "Flights",
+    "hotels": "Hotels",
+    "myBookings": "My Bookings",
+    "stories": "Travel Stories",
+    "routePlanner": "Route Planner",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Your Journey Starts Here",
+    "subtitle": "Book flights, hotels and plan your perfect trip",
+    "searchFlights": "Search Flights",
+    "searchHotels": "Search Hotels",
+    "featuredFlights": "Featured Flights",
+    "featuredHotels": "Featured Hotels",
+    "recommendations": "AI Recommendations"
+  },
+  "booking": {
+    "book": "Book Now",
+    "cancel": "Cancel Booking",
+    "confirmCancel": "Confirm Cancellation",
+    "myBookings": "My Bookings",
+    "totalPrice": "Total Price",
+    "travelDate": "Travel Date",
+    "status": "Status"
+  },
+  "review": {
+    "title": "Rate Your Experience",
+    "punctuality": "Punctuality",
+    "cleanliness": "Cleanliness",
+    "amenities": "Amenities",
+    "comment": "Comment",
+    "submit": "Submit Review",
+    "score": "Weighted Score"
+  },
+  "stories": {
+    "title": "Travel Stories",
+    "share": "Share Your Story",
+    "storyTitle": "Story Title",
+    "content": "Your Story",
+    "destination": "Destination",
+    "coverImage": "Cover Image URL",
+    "submit": "Submit Story",
+    "pending": "Pending Approval",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "route": {
+    "title": "Plan Your Route",
+    "addWaypoint": "Add Waypoint",
+    "waypointName": "Location Name",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "calculate": "Calculate Route",
+    "distance": "Distance",
+    "eta": "Estimated Time",
+    "km": "km",
+    "minutes": "min"
+  },
+  "theme": {
+    "dark": "Dark Mode",
+    "light": "Light Mode"
+  },
+  "language": {
+    "select": "Language",
+    "en": "English",
+    "hi": "हिंदी",
+    "fr": "Français"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back"
+  }
+}

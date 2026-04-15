@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans bg-gray-50 text-gray-900;
+  }
+}
+
+@layer utilities {
+  @keyframes slide-in {
+    from { opacity: 0; transform: translateY(0.5rem); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .animate-slide-in {
+    animation: slide-in 0.2s ease-out both;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-gray-800 font-semibold py-2 px-4 rounded-lg border border-gray-300 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-200 p-6 text-gray-900;
+  }
+
+  .input-field {
+    @apply w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent transition-all duration-200;
+  }
+
+  .badge-on-time {
+    @apply bg-green-100 text-green-700 text-xs font-semibold px-2 py-1 rounded-full;
+  }
+
+  .badge-delayed {
+    @apply bg-yellow-100 text-yellow-700 text-xs font-semibold px-2 py-1 rounded-full;
+  }
+
+  .badge-cancelled {
+    @apply bg-red-100 text-red-700 text-xs font-semibold px-2 py-1 rounded-full;
+  }
+
+  .seat-available {
+    @apply bg-green-100 hover:bg-green-200 border-2 border-green-400 text-green-800 cursor-pointer rounded-md transition-colors duration-150;
+  }
+
+  .seat-booked {
+    @apply bg-red-100 border-2 border-red-300 text-red-500 cursor-not-allowed rounded-md;
+  }
+
+  .seat-selected {
+    @apply bg-orange-400 border-2 border-orange-600 text-white cursor-pointer rounded-md;
+  }
+
+  /* Feature 4 – premium seat upsell (gold highlight) */
+  .seat-premium {
+    @apply bg-yellow-200 hover:bg-yellow-300 border-2 border-yellow-500 text-yellow-900 cursor-pointer rounded-md transition-colors duration-150;
+  }
+}
